@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    background-color: #1f2937;
+    height: 80px;
+    border: 1px solid white;
+}
+.hero {
+    background-color: #1f2937;
+    height: 400px;
+}
+.information {
+    height: 400px;
+}
+.quote {
+    background-color: #e5e7eb;
+    height: 400px;
+}
+.cta {
+    height: 400px;
+}
+.footer {
+    background-color: #1f2937;
+    height: 80px;
+}
