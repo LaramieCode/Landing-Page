@@ -77,6 +77,29 @@
 }
 .information {
     height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+.information .top {
+    height: 33%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.information .top h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+.information .bottom {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.information .bottom .necesities {
+    height: 100%;
+    width: 150px;
 }
 .quote {
     background-color: #e5e7eb;
