@@ -104,6 +104,19 @@
 .quote {
     background-color: #e5e7eb;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 80px 250px;
+    justify-content: center;
+}
+.quote h2 {
+    font-size: 36px;
+    color: #1f2938;
+    font-style: italic;
+    font-weight: lighter;
+}
+.quote h3 {
+    align-self: flex-end;
 }
 .cta {
     height: 400px;
