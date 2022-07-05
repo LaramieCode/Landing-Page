@@ -1,1 +1,6 @@
-This is landing page for The Odin Project.
+This is the landing page project for The Odin Project.
+
+
+
+Credits:
+hero-cat.jpg: https://www.pexels.com/photo/cute-kitten-hiding-behind-a-pillow-96938/

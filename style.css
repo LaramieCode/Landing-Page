@@ -27,6 +27,53 @@
 .hero {
     background-color: #1f2937;
     height: 400px;
+    display: flex;
+    padding: 150px 200px;
+}
+.hero .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.hero .left {
+    padding: 20px 0;
+}
+.hero .left h2 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+.hero .left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.hero .left button {
+    background-color: #3382f6;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex: 0 0 auto;
+}
+.hero .left button:hover {
+    background-color: #1a74fa;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex: 0 0 auto;
+}
+.hero .left button:active {
+    background-color: #3382f6;
+    color: white;
+    border: 0;
+    border-radius: 8px;
+    padding: 4px 10px;
+    flex: 0 0 auto;
+}
+.hero .right {
+    width: 50%;
 }
 .information {
     height: 400px;
