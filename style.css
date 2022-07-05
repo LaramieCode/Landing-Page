@@ -119,7 +119,33 @@
     align-self: flex-end;
 }
 .cta {
-    height: 400px;
+    height: 300px;
+    display: flex;
+}
+.cta .smallercta {
+    background-color: #3882f6;
+    flex: 1 0 auto;
+    margin: 80px 200px;
+    padding: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cta .smallercta .ctaleft h2 {
+    color: white;
+}
+.cta .smallercta .ctaleft p {
+    color: #f9faf8;
+}
+.cta .smallercta .ctaright button {
+    border: 1px solid white;
+    background-color: #3882f6;
+    padding: 4px 16px;
+    border-radius: 8px;
+}
+.cta .smallercta .ctaright button a {
+    color: white;
+    text-decoration: none;
 }
 .footer {
     background-color: #1f2937;
